@@ -1,16 +1,37 @@
-# untitled2
+README
+Project overview
+This Flutter project is a mobile shopping application focused on plush toys. It allows users to:
+	Browse a list of plushie products
+	Add selected items to a shopping cart.
+	View the total price dynamically
+	Access individual product details including price, sales, and description
+Project structure
+untitled2/
+├── lib/
+│   └── main.dart               # All Dart code is contained here
+├── assets/
+│   └── images/
+│       ├── image_0.png         # Splash screen image
+│       ├── image_1.jpg         # Plushie 1
+│       ├── image_2.jpg         # Plushie 2
+│       ├── image_3.jpg         # Plushie 3
+│       ├── image_4.jpg         # Plushie 4
+│       ├── image_5.jpg         # Plushie 5
+│       └── image_6.png         # Discount banner
+├── pubspec.yaml                # Asset and dependency declarations
+├── README.md               
+Configuration steps
+1. Prerequisites
+   Ensure the following are installed:
+   •	Flutter SDK
+   •	Dart SDK
+   •	Android Studio or VS Code with Flutter and Dart plugins
+2. Install dependencies
+   Run the following command in the project directory:
+   flutter pub get
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Make sure the assets/images/ directory exists and all referenced image files are present.
+3. Run the app
+   Use the following command to run the app on an emulator or a connected device:
+   flutter run
+   After launching, a splash screen will display for three seconds before entering the main shop interface.
